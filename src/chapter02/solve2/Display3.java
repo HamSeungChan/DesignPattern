@@ -11,8 +11,7 @@ public class Display3 implements Observer, Display {
     }
 
     @Override
-    public void update(int x, int y, int z, int k) {
-        this.x = x;
-        this.y = y;
+    public void update() {
+
     }
 }

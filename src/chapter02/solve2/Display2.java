@@ -18,9 +18,9 @@ public class Display2 implements Observer, Display {
     }
 
     @Override
-    public void update(int x, int y, int z, int k) {
-        this.x = x;
-        this.z = z;
+    public void update() {
+        this.x = weatherData.getX();
+        this.z = weatherData.getZ();
         display();
     }
 
