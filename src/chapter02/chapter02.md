@@ -7,3 +7,10 @@
     - notifyObserver() - 모든 옵저버에게 변경 내용 호출
   - Observer 인터페이스
     - update() - observer 에게 상태를 전달할 때 호출
+  - Push 와 Pull 
+    - push 
+      - 옵저버가 데이터를 push 
+    - pull
+      - 옵저버가 주제로부터 데이터를 당겨옴
+      - 주제의 상태를 get을 통해 가져온다
+    - 주제에서 event가 발생하는 건 동일
