@@ -3,7 +3,7 @@ package chapter03.solve2;
 public class Whip extends CondimentDecorator {
 
     public Whip(Beverage beverage) {
-        this.beverage = beverage;
+        super(beverage);
     }
 
     @Override
