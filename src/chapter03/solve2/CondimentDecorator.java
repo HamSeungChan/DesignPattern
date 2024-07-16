@@ -7,6 +7,11 @@ public abstract class CondimentDecorator extends Beverage {
     // 어떤 음료든 갈쌀 수 있도록 Beverage 슈퍼 클래스를 유형을 사용
     Beverage beverage;
 
+    CondimentDecorator(Beverage beverage) {
+        this.beverage = beverage;
+    }
+
+
     // getDescription() 메소드를 새로 구현하도록 추상 메소드로
     public abstract String getDescription();
 
