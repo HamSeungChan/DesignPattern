@@ -2,7 +2,7 @@ package chapter03.solve1;
 
 public class Decaf extends Beverage {
     @Override
-    int cost() {
+    public int cost() {
         return 0;
     }
 }
