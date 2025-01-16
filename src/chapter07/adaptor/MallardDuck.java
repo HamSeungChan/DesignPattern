@@ -1,4 +1,4 @@
-package chapter07.Adaptor;
+package chapter07.adaptor;
 
 public class MallardDuck implements Duck {
     @Override

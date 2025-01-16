@@ -1,4 +1,4 @@
-package chapter07.Adaptor;
+package chapter07.adaptor;
 
 // 클라이언트에서 원하는 인터페이스를 구현
 public class TurkeyAdapter implements Duck {
